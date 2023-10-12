@@ -1,0 +1,150 @@
+body
+{
+    margin:0
+}
+#leftcontent
+{
+    background-color: #222222;
+    height: 100vh;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+#rightcontent
+{
+    background-color:#151515;
+    height: 100vh;
+    width: 75%;
+    float: left;
+    color:white
+}
+
+.logostyle
+{
+    width: 120px;
+    height: 80px;
+}
+header ul{
+    padding: 0px;
+    padding-top: 50px;
+}
+header li a
+{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.active
+{
+    color:#da6726;
+}
+header li{
+    width: 60%;
+    list-style: none;
+    height: 35px;
+    border-bottom: 1px solid gray;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.content_left
+{
+    width: 46%;
+    float: left;
+    padding-top:100px;
+    padding-left: 5%;
+    padding-right: 4%;
+}
+
+.content_right
+{
+    width: 45%;
+    float: left;
+    padding-top:100px
+}
+
+.orangefont
+{
+    color: orange;
+}
+
+.content_right img
+{
+    border-top: 21px solid orange;
+    padding-top: 10px;
+    border-left: 24px solid orange;
+    padding-left: 10px;
+}
+
+
+.content_left button
+{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#bannercontent
+{
+    padding-left: 5%;
+    width: 90%;
+    color: orange;
+}
+#bannercontent h2{
+    background-color: orange;
+    color: black;
+    padding: 3%;
+    box-shadow: 10px 10px 5px red;
+}
+.about_content
+{
+    margin-left: 5%;
+    width: 90%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.about_left, .about_right
+{
+    height: 280px;
+    background-color: coral;
+    padding: 2%;
+}
+
+.about_left
+{
+    width: 41%;
+    float: left;
+    padding: 2% 7%;
+    text-align: justify;
+}
+.about_right
+{
+    width: 36%;
+    float: left;
+    margin-left: 5%;
+
+}
+
+#firstdiv
+{
+    background-color: #da6726;
+    padding: 10px 5%;
+}
+#seconddiv
+{
+    margin-top: 30px;
+    background-color: #81380e;
+    padding: 10px 5%;
+}
+
+.portfoliocontent
+{
+    width: 90%;
+    margin: 0 5%;
+}
